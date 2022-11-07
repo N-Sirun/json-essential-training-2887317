@@ -13,7 +13,7 @@ let posts = [
   }
 ];
 
-// Enter code to stringify the `posts` variable here:
+const postsJson = JSON.stringify(posts);
 
 
 let article = {
@@ -25,3 +25,4 @@ let article = {
 
 // Enter code to stringify the `article` variable here:
 
+const articleJson = JSON.stringify(article); 
